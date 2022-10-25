@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE-edge">
+  <meta name="viewport" content="width-device-width, initial-scale=1.0">
+  <title>Layout Html 5</title>
+  <style>
+    section{
+     margin-bottom: 20px;
+     text-align: justify;
+    }
+    .g1{
+     height: 50px;
+     margin-right: 6px;
+     border: 2px solid black;
+    }.g2{
+     height: 50px;
+     border: 2px solid black; 
+    }
+  </style>
+</head>
+<body>
+  <fieldset style="margin: 0px 250px;">
+    <legend>I4F - Directory Profile Page</legend>
+    <header style="background-color: beige;">
+      <div style="display: flex; justify-content: space-between;">
+        <div style="border: 2px solid black; padding: 10px; margin-left: 20px;">
+         <img src="my1.png" alt="foto saki" style="width:250px;height:300px;"> 
+        </div>
+        <div style="margin: 0px 70px 0px 20px;">
+          <h1>Profile Name</h1>
+          <h3>Tamassaki Khoiriyah</h3>
+          <p>Alamat : Jl. Kh. Ridhi 4 RT 03/02, Kel. Pondok Jaya</p>
+          <p>Kec. Cipayung, Kota Depok, Jawa Barat </p>
+          <p>Email : <a href="mailto:tama22069si@student.nurulfikri.ac.id">tama22069si@student.nurulfikri.ac.id</a></p>
+           <p>Telephone : 0895370009839</p>
+        </div>
+        <div style="text-align: right;">
+          <h3><u>Sosmed</u></h3>
+          <p>Instagram</p>
+          <p>Facebook</p>
+          <p>Youtube</p>
+          <p>Github</p>
+        </div>
+      </div>
+    </header>
+    <main style="padding: 30px;">
+      <article>
+        <section style="margin-bottom: 20px;text-align: justify;">
+          Saya merupakan mahasiswa semester 1 di STT Terpadu Nurul Fikri, program studi yang saya ambil adalah sistem informasi, saya memilih jurusan ini karena memiliki peluang karier yang luas. saya merupakan anak ke 3 dari 4 bersaudara. 
+        </section>
+        <section style="margin-bottom: 20px;text-align: justify;">
+          Saya memiliki ketertarikan pada dunia kreatif seperti membuat kerajinan tangan dan desainer grafis. Tidak hanya itu, videographer, Typography juga menjadi bidang yang saya tekuni. Saya sangat suka mempelajari hal-hal baru karena dengan begitu saya merasa bisa mendapatkan berbagai pengalaman yang berguna untuk karir dan pengetahuan saya sendiri.
+        </section>
+      </article>
+    </main>
+    <footer>
+      <div style="display: flex; justify-content:center;">
+        <fieldset>
+          <legend>Youtube Embed</legend>
+          <iframe width="200" height="100" src="https://www.youtube.com/embed/eZk9rvx9JAI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </fieldset>
+        <fieldset>
+          <legend>Blog Thumbnail</legend>
+            <div style="djustify: content center;content:center;">
+              <div>
+                 <a href="https://www.dewaweb.com/blog/panduan-lengkap-untuk-belajar-html-bagi-pemula/"><img       src="https://dwblog-ecdf.kxcdn.com/wp-content/uploads/2021/07/dewaweb-blog-panduan-lengkap-untuk-belajar-html-bagi-pemula.jpeg" alt="" class="g1">
+                 </a>
+              </div>
+              <div>
+                <a href="https://www.kreatifa.com/pengertian-html-dan-fungsinya/"><img src="http://sumberpengertian.id/wp-content/uploads/2017/12/HTML.png" alt="" class="g2">
+                </a>
+              </div>
+        </fieldset>
+        <fieldset>
+          <legend>Attachments</legend>
+          <table>
+            <tr>
+              <td><i class="far fa-file-image"</td>
+              <td><a href="my1.png" download="Foto Tamassaki">Foto Tamassaki</a></td>
+            </tr>
+            <tr>
+              <td><i class="fa-solid fa-file-image"></i></td>
+              <td><a href="stt.jpg" download="logo stt nf">Logo STT NF</a></td>
+            </tr>
+            <tr>
+              <td><i class="fa-solid fa-file-image"></i></td>
+              <td><a href="kampus b.jpg" download="nurul fikri">Kampus B STT NF</a></td>
+            </tr>
+            <tr>
+              <td><i class="fa-solid fa-file-image"></i></td>
+              <td><a href="kampus a.jpg" download="nurul fikri">Kampus A STT NF</a></td>
+            </tr>
+          </table>
+        </fieldset>
+      </div>
+    </footer>
+  </fieldset>
+</body>
+</html>
