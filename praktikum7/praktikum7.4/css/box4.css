@@ -1,0 +1,54 @@
+.container {
+    justify-content: space-around;
+}
+.kotak {
+	border:2px solid black;
+	margin: 1vh;
+
+}
+
+.item-1 {
+    background-color: yellowgreen;
+	position: relative;
+	flex-direction: row;
+	width: auto;
+    height: 30vh;
+	margin-top: 2vh;
+	
+}
+.container2 {
+	display: flex;
+}
+
+.item-2 {
+    background-color: yellow;
+	width: 30vh;
+	height: 30vh;
+	margin-top: 2vh;
+	
+}
+
+.item-3 {
+    background-color: orange;
+	width: 180vh;
+	height: 30vh;
+	margin-top: 2vh;
+}   
+
+.container3 {
+	display: flex;
+	
+	
+}
+.item-4 {
+    background-color: yellow;
+	width: 30vh;
+	height: 30vh;
+	margin-top: 2vh;
+}
+.item-5 {
+    background-color: skyblue;
+	width: 180vh;
+	height: 30vh;
+	margin-top: 2vh;
+}
