@@ -16,40 +16,40 @@
 				<label>Email:</label>
 				<input type="email" name="email" id="email" />
 			</div>
-            <br>
-            <div>
-           	    <label>Jam Keberangkatan:</label>
+            		<br>
+           		 <div>
+           	    		<label>Jam Keberangkatan:</label>
 				<input type="time" name="jam" id="jam" />
 			</div> 
-            </br>
-            <div>
-                <label>Tujuan Keberangkatan:</label>
-             <input type="text" name="tujuan" id="tujuan" />
-            </div>
-            </br>
-            <div>
-                <label>Jumlah Tiket:</label>
-             <input type="number" name="tiket" id="tiket" />
-            </div> 
-            </br>
+            		</br>
+            		<div>
+               			<label>Tujuan Keberangkatan:</label>
+             			<input type="text" name="tujuan" id="tujuan" />
+            		</div>
+            		</br>
+            		<div>
+               			<label>Jumlah Tiket:</label>
+             			<input type="number" name="tiket" id="tiket" />
+            		</div> 
+            		</br>
 			<div>
 				<input type="submit" value="Daftar" class="tombol">
 			</div>
-		</form>
-	</div>
+			</form>
+			</div>
 </body>
-<script type="text/javascript">
+	<script type="text/javascript">
 	function validasi() {
 		var nama = document.getElementById("nama").value;
 		var email = document.getElementById("email").value;
-        var jam = document.getElementById("jam").value;
-        var tujuan = document.getElementById("tujuan").value;
-        var tiket = document.getElementById("tiket").value;
+        	var jam = document.getElementById("jam").value;
+        	var tujuan = document.getElementById("tujuan").value;
+        	var tiket = document.getElementById("tiket").value;
 		if (nama != "" && email!="" && jam !="" && tujuan !="" && tiket !="") {
 			return true;
 		}else{
 			alert('Anda harus mengisi data dengan lengkap !');
 		}
 	}
-</script>
+	</script>
 </html>
